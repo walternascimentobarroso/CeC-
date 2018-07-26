@@ -1,0 +1,38 @@
+ História e Aplicações da Criptografia
+Criptografia (kriptós = escondido, oculto; grápho = grafia) : é a arte ou ciência de escrever em cifra ou em códigos, de forma a permitir que somente o destinatário a decifre e compreenda ou seja, criptografia transforma textos originais, chamados texto original (plaintext) ou texto claro (cleartext), em uma informação transformada, chamada texto cifrado (ciphertext), texto código (codetext) ou simplesmente cifra (cipher), que usualmente tem a apararência de um texto randômico ilegível.
+
+A criptografia é tão antiga quanto a própria escrita, já estava presente no sistema de escrita hieroglífica dos egípcios. Os romanos utilizavam códigos secretos para comunicar planos de batalha. O mais interessante é que a tecnologia de criptografia não mudou muito até meados deste século. Depois da Segunda Guerra Mundial, com a invenção do computador, a área realmente floresceu incorporando complexos algoritmos matemáticos. Durante a guerra, os ingleses ficaram conhecidos por seus esforços para decifração de códigos. Na verdade, esse trabalho criptográfico formou a base para a ciência da computação moderna.
+
+Termos utilizados
+ 
+
+    Criptografia (kriptós = escondido, oculto; grápho = grafia) : é a arte ou ciência de escrever em cifra ou em códigos, de forma a permitir que somente o destinatário a decifre e a compreenda.
+    Criptoanálise (kriptós = escondido, oculto; análysis = decomposição) : é a arte ou ciência de determinar a chave ou decifrar mensagens sem conhecer a chave. Uma tentativa de criptoanálise é chamada ataque.
+    Criptologia (kriptós = escondido, oculto; logo = estudo, ciência) : é a ciência que reúne a criptografia e a criptoanálise.
+
+A criptografia computacional como a conhecemos protege o sistema quanto a ameaça de perda de confiabilidade, integridade ou não-repudiação, é utilizada para garantir :
+
+    Sigilo : somente os usuários autorizados têm acesso à informação.
+    Integridade : garantia oferecida ao usuário de que a informação correta, original, não foi alterada, nem intencionalmente, nem acidentalmente.
+    Autenticação do usuário : é o processo que permite ao sistema verificar se a pessoa com quem está se comunicando é de fato a pessoa que alega ser.
+    Autenticação de remetente : é o processo que permite a um usuário certificar-se que a mensagem recebida foi de fato enviada pelo remetente, podendo-se inclusive provar perante um juiz, que o remetente enviou aquela mensagem.
+    Autenticação do destinatário : consiste em se ter uma prova de que a mensagem enviada foi como tal recebida pelo destinatário.
+    Autenticação de atualidade : consiste em provar que a mensagem é atual, não se tratando de mensagens antigas reenviadas.
+
+O unico método disponível para oferecer proteção contra esses tipos de fatos, tanto durante o armazenamento quanto em  trânsito, é a criptografia.
+
+Cifrar é o ato de tranformar dados em alguma forma ilegível. Seu propósito é o de garantir a privacidade, mantendo a informação escondida de qualquer pessoa não autorizada, mesmo que esta consiga visualizar os dados criptografados.
+
+Decifrar é o processo inverso, ou seja, tranformar os dados criptografados na sua forma original, inteligível.
+
+Para cifrarmos ou decifrarmos uma mensagem, necessitamos de informações confidenciais geralmente denominadas chaves ou senhas. Dependendo do método de criptografia empregado, a mesma chave pode ser utilizada tanto para criptografar como para decriptografar mensagens, enquanto outros mecanismos utilizam senhas diferentes.
+
+Referências :
+
+    http://www.penta.ufrgs.br/gere96/segur/cripto_.htm
+    http://www.penta.ufrgs.br/gereseg/kerber2.html
+    Prof. Eduardo Müssnich Barreto (eduardo@cepesc.gov.br)
+    Internet Security for Business ( ISBN 0-471-13752-9 )
+    Computer Security Basics (ISBN 0-937175-71-4)
+    Practical UNIX and Internet Security (ISBN 1-56592-148-8)
+    Maximun Security (ISBN 1-57521-268-4)
